@@ -16,7 +16,7 @@
 1. OVERVIEW
 ------------------------------------------------------------------------
 This repository hosts a self-contained scientific script for analyzing plasma instabilities.
-The code **`pw_eib_ring_beam_parallel.py`** solves the complex dispersion relations for right-hand modes propagating parallel to the background magnetic field ($k \parallel B_0) in an electron-ion-beam (e-i-b) plasma system. The word "pw" stands for plasma waves. The code operates within the displacement-current-free approximation, enforces charge and current neutrality conditions, and tracks growth rates ($\gamma$) for unstable modes induced by a ring velocity component.
+The code **`pw_eib_ring_beam_parallel.py`** solves the complex dispersion relations for right-hand modes propagating parallel to the background magnetic field in an electron-ion-beam (e-i-b) plasma system. The word "pw" stands for plasma waves. The code operates within the displacement-current-free approximation, enforces charge and current neutrality conditions, and tracks growth rates ($\gamma$) for unstable modes induced by a ring velocity component.
 
 The solver outputs production-ready publication figures in PDF format and serializes raw multidimensional calculation matrices into NumPy binary archive tracks (`.npz`) for downstream post-processing and analysis.
 
